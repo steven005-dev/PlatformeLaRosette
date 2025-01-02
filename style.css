@@ -95,3 +95,38 @@ header nav a {
 .presentation p {
     line-height: 1.6;
 }
+
+.prestation{
+    background-color: rgb(201, 195, 195);;
+    display: flex; /*rendre flexible*/
+    justify-content: space-around; /*egaliser l'espace entre les element*/
+    flex-wrap: wrap;
+    
+    
+}
+
+
+.prestation div img{
+    height: 45pt;
+    width: none;
+    display: block;
+    
+
+
+}
+
+.prestation div h4,p{
+    color: #fff;
+
+}
+
+fieldset{
+    width: 200px; 
+    height: 200px; 
+    border-radius: 10%;
+    color: #000;
+
+}
+.dif{
+    background-color: blue;
+}
