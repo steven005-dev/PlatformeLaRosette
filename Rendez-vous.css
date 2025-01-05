@@ -1,0 +1,106 @@
+/* Général */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    background: linear-gradient(to bottom, #b0c4de, #87ceeb);
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.user-info {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.user-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 15px 0;
+    font-size: 16px;
+}
+
+/* Main Content */
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: #f0f0f0;
+    padding: 10px;
+    text-align: right;
+    border-bottom: 1px solid #ccc;
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    margin-left: 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: blue;
+}
+
+.appointments {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+
+.appointment-btn {
+    background-color: #87ceeb;
+    border: none;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+}
+
+.appointment-btn:hover {
+    background-color: #4682b4;
+    color: white;
+}
