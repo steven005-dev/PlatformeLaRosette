@@ -124,41 +124,5 @@ fieldset{
     width: 200px; 
     height: 200px; 
     border-radius: 10%;
-    color: #000;
+    color: #000;}
 
-}
-.dif{
-    background-color: blue;
-}
-
-.barre {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 1200px;
-}
-
-.service {
-    text-align: center;
-    background-color: #dce6f8;
-    padding: 20px 0;
-    font-size: 1.8rem;
-    color: #000;
-}
-
-.banner {
-    background-color: #e0e0e0;
-    text-align: center;
-    padding: 15px;
-    font-size: 1.2rem;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #b0cde8;
-    border-radius: 10px;
-    padding: 20px;
-}
